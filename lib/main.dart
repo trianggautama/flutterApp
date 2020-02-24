@@ -22,7 +22,8 @@ class _MyAppState extends State<MyApp> {
               children: <Widget>[
                 Text(message),
                 RaisedButton(
-                  child: Text("Click Me"),
+                  color: Colors.blue,
+                  child: Text("Click Me",style: TextStyle(color: Colors.white)),
                   onPressed: (){
                     setState(() {
                     message = "tombol sudah ditekan";
